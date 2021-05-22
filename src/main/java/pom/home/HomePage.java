@@ -11,17 +11,9 @@ public class HomePage extends BasePage {
 
     public HomePage(WebDriver driver){ super(driver); }
 
-    //Label - User Name
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[contains(@name,'Hola,')]")
-    @AndroidFindBy(id = "user_label")
-    public MobileElement lblUserName;
-
-    //Accounts
-    @iOSXCUITFindBy(xpath = "(//XCUIElementTypeButton[@name='CUENTAS'])[1]")
-    @AndroidFindBy(id = "action_accounts")
-    public MobileElement btnAccounts;
-
-    //Menu Options
-    public By BtnMenuOption(String option) {return By.xpath("//android.widget.TextView[contains(@text,'" + option + "')]");}
+    //Perfil
+    @iOSXCUITFindBy(xpath = "pending")
+    @AndroidFindBy(xpath = "")
+    public MobileElement btnPerfil;
 
 }
