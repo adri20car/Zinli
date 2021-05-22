@@ -1,0 +1,19 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "migueldalessio1",
+  "key": "fHSSDNCyMVxWZpxub7qs",
+
+  "capabilities": {
+    "build": "Despegue",
+    "name": "Test",
+    "browserstack.debug": false,
+    "browserstack.local": false,
+    "app": "bs://181705b8dc270e8515549768d46416e5b8c9434b"
+  },
+
+  "environments": {
+    "iPhone_7": {
+      "device": "iPhone 7"
+    }
+  }
+}
