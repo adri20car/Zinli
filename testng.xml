@@ -2,7 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ZINLI TEST" >
     <test name="Android APP" >
-        <parameter name="environment" value="pixel"/>
         <parameter name="os" value="Android" />
         <classes>
             <class name ="AndroidTestRunner"></class>

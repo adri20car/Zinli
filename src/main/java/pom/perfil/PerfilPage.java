@@ -14,5 +14,18 @@ public class PerfilPage extends BasePage {
     @iOSXCUITFindBy(xpath = "pending")
     @AndroidFindBy(xpath = "")
     public MobileElement lblNombreYapellido;
+    public MobileElement lblPorcentaje;
+    public MobileElement lblDatos;
+    public MobileElement lblCapacidad;
+    public MobileElement lblBalance;
+    public MobileElement lblSaldo;
+    public MobileElement lblIngreso;
+    public MobileElement lblRecarga;
+    public MobileElement lblSeguridad;
+    public MobileElement lblTerminos;
+    public MobileElement lblInvitar;
+    public MobileElement lblVersion;
+    public MobileElement btnCerrar;
+
 
 }

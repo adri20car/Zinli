@@ -1,6 +1,5 @@
 package helpers;
 
-import automation_frontend.utils.getFiles.GetXMLfile;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -15,7 +14,7 @@ public class UtilHelpers {
 
             driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
             value = driver.findElements(element).size() != 0;
-            driver.manage().timeouts().implicitlyWait(Integer.parseInt(GetXMLfile.getConfProperties("IMPLICIT_WAIT")), TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
         } catch (Exception e) {
             value = false;
