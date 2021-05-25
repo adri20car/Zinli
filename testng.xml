@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ZINLI TEST" >
+<suite name="ZINLI" >
     <test name="Android APP" >
-        <parameter name="os" value="Android" />
+        <parameter name="jsonConfigFile" value="single.conf.json"/>
+        <parameter name="environment" value="pixel"/>
+        <parameter name="os" value="ANDROID" />
+        <parameter name="mode" value="Local" />
         <classes>
-            <class name ="AndroidTestRunner"></class>
+            <class name="TestRunner"></class>
         </classes>
     </test>
-  <!--  <test name="IOS APP" >
+
+    <!--<test name="IOS APP" >
+        <parameter name="jsonConfigFile" value="single.conf.json"/>
         <parameter name="environment" value="iPhone_7"/>
         <parameter name="os" value="IOS" />
         <parameter name="mode" value="Local" />
-        <classes>
-            <class name ="IOSTestRunner"></class>
+        <classes><![CDATA[
+            <class name =""></class>
         </classes>
     </test>-->
 </suite>

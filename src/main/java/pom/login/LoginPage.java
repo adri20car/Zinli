@@ -14,43 +14,23 @@ public class LoginPage extends BasePage {
     }
 
 
-    //Button Ingresar desde el slide sin limite
-    @AndroidFindBy(xpath = "ViewGroup[4]")
-    @iOSXCUITFindBy(accessibility = "pending")
-    public MobileElement btnSlideSinLimite;
-
-    //Button Ingresar desde el slide distancia
-    @AndroidFindBy(xpath = "")
-    @iOSXCUITFindBy(accessibility = "pending")
-    public MobileElement btnSlideDistancia;
-
-    //Button Ingresar desde el slide sin preocupaciones
-    @AndroidFindBy(xpath = "")
-    @iOSXCUITFindBy(accessibility = "pending")
-    public MobileElement btnSlideSinPreocupaciones;
-
-    //Button Ingresar desde el slide sin costos
-    @AndroidFindBy(xpath = "")
-    @iOSXCUITFindBy(accessibility = "pending")
-    public MobileElement btnSlideSinCostos;
-
-    //Button Ingresar
-    @AndroidFindBy(xpath = "")
+    //Button Ingresar desde los slider
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='INGRESAR']")
     @iOSXCUITFindBy(accessibility = "pending")
     public MobileElement btnIngresar;
 
     //Input Correo electronico
-    @AndroidFindBy(id = "et_login_email")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Correo electrónico']/../../android.widget.EditText")
     @iOSXCUITFindBy(accessibility = "pending")
     public MobileElement inputEmail;
 
     //Input Contraseña
-    @AndroidFindBy(id = "et_login_password")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Contraseña']/../../android.widget.EditText")
     @iOSXCUITFindBy(accessibility = "pending")
     public MobileElement inputPassword;
 
     //Button Ingresar
-    @AndroidFindBy(id = "button_sign_in_login")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='INGRESAR']")
     @iOSXCUITFindBy(accessibility = "pending")
     public MobileElement btnIngresarApp;
 

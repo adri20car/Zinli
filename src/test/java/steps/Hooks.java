@@ -10,7 +10,6 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.Reporter;
 import java.io.File;
 import java.net.URL;
 
@@ -26,7 +25,8 @@ public class Hooks {
     @SuppressWarnings("unchecked")
     public void setUp() throws Exception {
 
-        String os = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("os");
+
+        String os = "ANDROID";
         GlobalVars.setVar(EGlobalVars.SYSTEM_OPERATION, os);
         File f;
         File app;

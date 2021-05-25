@@ -2,12 +2,13 @@ package steps;
 
 import base.BaseDriver;
 import helpers.WaitHelpers;
-import org.openqa.selenium.WebDriver;
+import io.appium.java_client.android.AndroidDriver;
+
 
 public class BaseSteps {
 
 
-    public WebDriver driver = BaseDriver.getDriver();
+    public AndroidDriver driver = (AndroidDriver) BaseDriver.getDriver();
 
     public WaitHelpers waitHelpers = new WaitHelpers();
 

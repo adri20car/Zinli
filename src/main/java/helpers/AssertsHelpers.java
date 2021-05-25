@@ -103,6 +103,8 @@ public class  AssertsHelpers {
         }
     }
 
+
+
     //Assert Exist
     public static void exist(WebDriver driver, By element) {
 
@@ -168,4 +170,6 @@ public class  AssertsHelpers {
             new Exception(e);
         }
     }
+
+
 }
