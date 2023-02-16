@@ -31,7 +31,7 @@ Gitlab
 
 Estructura del proyecto
 
-POP (Page Object Model)
+POM (Page Object Model)
 
 Hooks
 
