@@ -2,37 +2,41 @@
 
 Prueba de Automtatización módulo perfil App Zinli.
 
-Requisitos de Instalación
+REQUISITOS DE INSTALACIÓN:
 
 JDK JAVA 1_8 (Variables de entorno)
 
 Maven
+
 Appium
+
 Android Studio (simuladores)
 
 
-Tecnologías
+TECNOLOGÍAS
 
-Java
 
-TestNG
+.-Java
 
-Maven
+.-TestNG
 
-BrowserStack
+.-Maven
 
-ExtentReport
+.-BrowserStack
 
-Appium
+.-ExtentReport
 
-Intellij (opcional)
+.-Appium
 
-Gitlab
+.-Intellij (opcional)
 
-Estructura del proyecto
+.-Gitlab
 
-POM (Page Object Model)
+ESTRUTURA DEL PROYECTO
 
-Hooks
 
-Methods / Tests
+.-POM (Page Object Model)
+
+.-Hooks
+
+.-Methods / Tests
